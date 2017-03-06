@@ -1,9 +1,9 @@
 {
-	"title": "",
+	"title": "Mirror Fashion",
 	"version": "0.0.0",
 	"timestamp": "",
 	"user": "",
-	"description": "",
+	"description": "Projeto Mirror Fashion, apostila WD-43 Caelum",
 	"http_path": "/",
 	"css_dir": "Repositorio/dist/css",
 	"sass": "assets/_sass",
@@ -15,7 +15,7 @@
 	"local_dir": "Local",
 	"assets_dir": "assets",
 	"author": {
-		"name": "",
-		"email": ""
+		"name": "PeterThomas",
+		"email": "peterpetrick@gmail.com"
 	}
 }

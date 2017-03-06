@@ -1,6 +1,6 @@
 {
-  "name": "projeto_base_estatico",
-  "description": "Dependencias do projeto estático",
+  "name": "Mirror Fashion",
+  "description": "Projeto Mirror Fashion, apostila WD-43 Caelum",
   "main": "index.html",
   "authors": [
     "PeterThomas"
@@ -26,7 +26,9 @@
   ],
   "dependencies": {
     "modernizr": "^3.3.1",
+    "normalize-css": "^5.0.0",
     "jquery": "^2.2.2",
-    "bootstrap-sass": "^3.3.7"
+    "bootstrap-sass": "^3.3.7",
+    "jquery.inputmask": "^3.3.4"
   }
 }

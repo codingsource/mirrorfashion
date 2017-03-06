@@ -1,7 +1,7 @@
 {
-  "name": "projeto_base_estatico",
+  "name": "Mirror Fashion",
   "version": "1.0.0",
-  "description": "Dependencias do projeto estático",
+  "description": "Projeto Mirror Fashion, apostila WD-43 Caelum",
   "main": "index.html",
   "scripts": {
     "gulp": "gulp"
@@ -40,9 +40,9 @@
     "gulp-uglifyjs": "^0.6.2",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
-    "imagemin-gifsicle": "^4.2.0",
-    "imagemin-jpegtran": "^4.3.2",
-    "imagemin-optipng": "^4.3.0",
+    "imagemin-gifsicle": "^5.1.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-optipng": "^5.2.1",
     "npm-install-package": "^2.1.0"
   }
 }
