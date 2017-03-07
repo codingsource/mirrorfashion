@@ -54,9 +54,8 @@ gulp.task('minify', function () {
     gulp.src([projeto.assets_dir + '/_js/geral.js'])
         .pipe(ulglify('main.min.js', {
             outSourceMap: true
-        }))
-        .on('error', swallowError)
-        .pipe(gulp.dest(projeto.dist_dir + 'js'));
+        })).on('error', swallowError)
+        .pipe(gulp.dest(projeto.dist_dir + '/js'));
 });
 
 gulp.task('bower', function () {
