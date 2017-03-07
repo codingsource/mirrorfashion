@@ -1,0 +1,18 @@
+.sobre {
+    color: $preto;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    h1 {
+        background-image: url(../img/sobre-background.jpg);
+    }
+    h2 {
+        border-bottom: 2px solid $preto;
+    }
+    figure {
+        background-color: $gelo;
+        border: 1px solid $cinza;
+        text-align: center;
+        figcaption {
+            font-style: italic;
+        }
+    }
+}
