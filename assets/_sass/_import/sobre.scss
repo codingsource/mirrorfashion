@@ -1,18 +1,52 @@
 .sobre {
     color: $preto;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font {
+        family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    }
     h1 {
+        font-size: 25px;
         background-image: url(../img/sobre-background.jpg);
+        padding: 10px;
+
     }
     h2 {
+        font-size: 20px;        
         border-bottom: 2px solid $preto;
+        margin-top: 15px;
+    }
+    #centro-distribuicao {
+        margin-left: auto;
+        margin-right: auto;
     }
     figure {
         background-color: $gelo;
         border: 1px solid $cinza;
         text-align: center;
+        padding: 15px;
+        margin: 30px;
         figcaption {
             font-style: italic;
+            margin-top: 10px;
+        }
+    }
+    @media (min-width: $screen-sm) {
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 36px;            
+            margin-top: 30px;
+        }
+        p {
+            padding: 0 45px;
+            text-indent: 15px;
+        }
+        #centro-distribuicao {
+            width: 550px;            
+        }
+        #familia-pelho {
+            float: right;
+            margin: 0 0 10px 10px;
         }
     }
 }

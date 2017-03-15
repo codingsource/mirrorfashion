@@ -1,8 +1,20 @@
 .footer {
-    background: $salmon;
     width: 100%;
     height: 100px;
     position: absolute;
     bottom: 0;
     left: 0;
+    background: $salmon;
+
+
+    color: $cinza-medio;
+    // margin: 30px 0;
+    padding: 30px 0;
+
+    img {
+        display: inline;
+        margin-right: 30px;
+        vertical-align: middle;
+        width: 94px;
+    }
 }
