@@ -3,6 +3,8 @@ body {
 	margin:0;
 	padding:0;
 	height:100%;
+
+    color: $preto-fosco;
 }
 .page {
     min-height: 100%;
@@ -10,4 +12,22 @@ body {
 }
 .content {
     padding-bottom: 100px; /* Altura do elemento de rodapé */
+}
+
+
+/////////////////// teste
+.quadrado {
+    background: green;
+    height: 200px;
+    width: 200px;
+}
+
+.absoluto {
+    position: absolute;
+    top: 20pc;
+    right: 30px;
+}
+
+.relativo {
+    position: relative;
 }
