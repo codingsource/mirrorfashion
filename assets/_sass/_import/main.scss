@@ -1,33 +1,31 @@
 html,
 body {
-	margin:0;
-	padding:0;
-	height:100%;
-
+    margin: 0;
+    padding: 0;
+    height: 100%;
     color: $preto-fosco;
+}
+.header{
+    padding: 10px;
 }
 .page {
     min-height: 100%;
     position: relative;
 }
 .content {
-    padding-bottom: 100px; /* Altura do elemento de rodapé */
+    padding-bottom: 100px;
+    /* Altura do elemento de rodapé */
 }
-
-
-/////////////////// teste
-.quadrado {
-    background: green;
-    height: 200px;
-    width: 200px;
-}
-
-.absoluto {
+.footer {
     position: absolute;
-    top: 20pc;
-    right: 30px;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
+////End Position HEADER e FOOTER
 
-.relativo {
-    position: relative;
+
+body {
+    font-family: $fontLucidaSansUnicode, $fontLucidaGrande;
 }

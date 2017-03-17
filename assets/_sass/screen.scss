@@ -60,10 +60,13 @@ Import css theme
 ------------------------------------------------------------------ */
 @import '_import/cores';
 @import '_import/mixins';
+@import '_import/fonts';
 @import '_import/main';
 @import '_import/header';
-@import '_import/footer';
+@import '_import/home';
 @import '_import/sobre';
+@import '_import/produto';
+@import '_import/footer';
 /* ------------------------------------------------------------------
 General Styles
 ------------------------------------------------------------------ */

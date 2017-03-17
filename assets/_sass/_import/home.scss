@@ -1,0 +1,55 @@
+.home {
+    .destaque {
+        margin-top: 10px;
+        .busca {
+            input {
+                vertical-align: middle;
+                border-radius: 30px;
+                &[type="search"] {
+                    width: 170px;
+                    height: 20px;
+                    padding-left: 10px;
+                }
+            }
+        }
+        .busca,
+        .menu-departamentos {
+            float: left;
+            clear: left;
+            background-color: $cinza-claro;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-right: 10px;
+            width: 230px;
+        }
+        .busca h2,
+        .busca form,
+        .menu-departamentos h2 {
+            margin: 10px;
+        }
+        .menu-departamentos {
+            // margin-top: 10px;
+            padding-bottom: 10px;
+            ul {
+                padding: 0;
+                li {
+                    list-style: none;
+                    background-color: $branco;
+                    margin-bottom: 1px;
+                    padding: 5px 10px;
+                }
+                a {
+                    color: $preto-fosco;
+                    text-decoration-style: none;
+                }
+            }
+        }
+    }
+    .painel li {
+        display: inline-block;
+        vertical-align: top;
+        width: 140px;
+        margin: 2px;
+        padding-bottom: 10px;
+    }
+}

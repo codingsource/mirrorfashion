@@ -1,31 +1,31 @@
 .header {
     position: relative;
-    background: $cinza;
-    padding: 10px;
-    .sacola {
-        background: url(../img/sacola.png) no-repeat top right;
-        font-size: 12px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        padding-right: 35px;
-        padding-top: 8px;
-        text-align: right;
-        width: 140px;
-    }
+    
     .menu-opcoes {
         position: absolute;
         bottom: 0;
         right: 0;
+        a {
+            color: $azul;
+        }
         ul {
             font-size: 15px;
             li {
                 display: inline;
                 margin-left: 20px;
             }
-            .menu-opcoes a {
-                color: $azul;
-            }
         }
+    }
+    .sacola {
+        background: url(../img/sacola.png) no-repeat top right;
+        font-size: 10px;
+        padding-right: 35px;
+        text-align: right;
+        width: 140px;
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 8px;
     }
 }
